@@ -23,7 +23,7 @@ export class AppComponent implements OnInit{
   ];
 
   defaultColDef: ColDef ={
-    sortable: true, filter: true } ;
+    sortable: true, filter: true, enableRowGroup: true } ;
 
   constructor(private http: HttpClient){}
 
