@@ -4,6 +4,8 @@ import { AgGridAngular, AgGridModule } from 'ag-grid-angular';
 import { CellClickedEvent, ColDef } from 'ag-grid-community';
 import { filter, Observable } from 'rxjs';
 
+import 'ag-grid-enterprise'
+
 
 @Component({
   selector: 'app-root',
